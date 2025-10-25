@@ -1,0 +1,163 @@
+/* style.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f8f9fa;
+}
+
+.main-header {
+    background: linear-gradient(90deg, #cdffd8, #94b9ff);
+    border-bottom: 0px solid #ccc;
+}
+
+/* Row 1: Logo, Search Bar, Cart/Account */
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 40px;         /* More vertical and horizontal space */
+    background: linear-gradient(90deg, #cdffd8, #94b9ff);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    height: 100px; /* You can increase this if the logo looks small */
+}
+
+
+.search-box form {
+    display: flex;
+    width: 400px;
+}
+
+.search-bar input[type="text"] {
+    padding: 12px 20px;
+    width: 450px;
+    border-radius: 25px;
+    border: none;
+    font-size: 16px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.search-box button {
+    padding: 8px 12px;
+    border: none;
+    background-color: #4a148c;
+    color: white;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+.user-links a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Row 2: Navigation */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.right-links {
+    margin-left: auto;
+}
+
+
+/* Row 3: Banner */
+.banner {
+
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    overflow: hidden;
+    margin: 0;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    display: block;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+.emoji-icon {
+    font-size: 24px; /* or 28px, 32px as needed */
+    vertical-align: middle;
+}
+
+/* Stylish Search Bar */
+.stylish-search .input-group {
+  width: 350px;
+  transition: all 0.3s ease-in-out;
+}
+
+.stylish-search .stylish-input {
+  border-radius: 25px 0 0 25px;
+  border: 2px solid #0d6efd;
+  padding: 8px 16px;
+  font-size: 14px;
+  transition: 0.3s;
+  box-shadow: none;
+}
+
+.stylish-search .stylish-btn {
+  border-radius: 0 25px 25px 0;
+  border: 2px solid #0d6efd;
+  border-left: none;
+  background-color: #0d6efd;
+  color: white;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: background-color 0.3s;
+}
+
+.stylish-search .stylish-btn:hover {
+  background-color: #0056b3;
+}
+
+.stylish-search .stylish-input:focus {
+  outline: none;
+  border-color: #0d6efd;
+  box-shadow: 0 0 5px rgba(13, 110, 253, 0.5);
+}
+
+
+
+
+
+
