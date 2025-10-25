@@ -1,7 +1,3 @@
-Perfect 👍 Here’s a professional **README.md** (short and keyword-rich) for your **Online Bookstore Project** — it clearly explains what works, what’s pending, and makes it look organized and professional on GitHub:
-
----
-
 # 📚 Online Bookstore
 
 An interactive **Online Bookstore Website** built using **HTML, CSS, PHP, and MySQL**. This project allows users to browse books, sign up, and log in, while the admin can manage the bookstore through a secure dashboard.
@@ -58,6 +54,4 @@ Developed by **Dur e Adan**
 > Beginner-friendly full-stack project demonstrating CRUD operations, user authentication, and admin functionality.
 
 ---
-
-Would you like me to make a **shorter, summary-style version** (3–4 lines) too — the kind that appears at the top of your GitHub repo description box under the title?
 
